@@ -1,27 +1,59 @@
-# Cardz
+# TP2 - CARDZ
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.3.
+## Introduction
 
-## Development server
+Vous faites partis d'une start-up fraichement créée lors d'une soirée un peu (trop) arrosée.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Pour votre première mission, ce n'est pas le coiffeur du coin qui vous a demandé de créer une application...
+Ni même la mère de votre pote qui veut que vous lui fassiez une todo list... Non!
+C'est un représentant d’Instagram qui vous a contacté, rien que ça! (Et oui, comme quoi vous n'étiez pas les seuls à avoir picolé ce soir là...)
 
-## Code scaffolding
+Le représentant d'Instagram vous a bien expliqué la situation:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Quand vous êtes sur Instagram et que vous éditez votre profil, vous ne pouvez mettre qu’un seul lien vers un site web. 
+ 
 
-## Build
+![image](https://user-images.githubusercontent.com/24430288/203858207-3ed8ea7e-d2b3-4dfd-b475-22135ff89c62.png)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+Ce lien apparait sur le profil des personnes comme ceci :
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+![image](https://user-images.githubusercontent.com/24430288/203858237-1c0ad2b6-21c1-4efa-b5d9-251ea42638ad.png)
+ 
+(Oui c’est mon vrai compte et alors ?)
 
-## Running end-to-end tests
+Le problème c’est que les utilisateurs aimeraient pouvoir y ajouter plusieurs sites afin d’y afficher les liens vers leurs réseaux sociaux, leurs channels youtube etc…
+Cependant, les développeurs d’Instagram disent que ce n’est pas possible, ils n’ont pas les compétences en interne pour pouvoir ajouter ces liens.
+Des concurrents ont déjà mis en place des solutions sur le marché. Ils créent une application où l’utilisateur a la possibilité de créer et personnaliser une page web. Voici certains de ces concurrents gratuits et payants :
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+![image](https://user-images.githubusercontent.com/24430288/203858255-acd09d3b-8635-46ef-ad34-69acd4429bf4.png)
+https://linktr.ee/
 
-## Further help
+![image](https://user-images.githubusercontent.com/24430288/203858266-425a433b-cc6b-4c8a-b199-5c561b60cc2d.png)
+https://carrd.co/
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Le représentant d’Instagram vous demande donc de lui créer une application permettant d’écraser ces concurrents. Il vous donne juste un peu de HTML et CSS pour commencer votre projet.
+- Clonez le projet : https://github.com/Evyweb/cardz
+
+Votre mission…
+Dans un premier temps, il souhaiterait que vous utilisez un viewModel et que vous:
+-	Rendiez dynamique les informations de l’utilisateur comme le nom et la biographie.
+-	Rendiez dynamique l’image de fond et la photo de l’utilisateur
+-	Rendiez dynamique les liens à afficher ainsi que leurs icônes
+-	Rendiez dynamique l’animation de l’image de fond
+-	Rendiez dynamique l’animation de la cardz
+-	Rendiez dynamique le changement de couleur de fond de la partie supérieure (bonus)
+-	Rendiez dynamique le changement de couleur de fond de la partie inférieure (bonus)
+-	Rendiez dynamique les couleurs de texte et du titre (bonus)
+-	Rendiez dynamique les polices utilisées (bonus)
+Dans un second temps, vous devrez :
+-	Sans toucher à votre viewModel, vous devrez découper votre application plusieurs composants en leur passant les données en input
+
+Plus tard nous verrons comment :
+-	Envoyer les données de votre viewModel à partir d’un service
+-	Ajouter un faux serveur http qui enverra les données
+-	Appeler le faux serveur http pour récupérer les données grâce au httpClient d’Angular
+-	Créer une route /cardz/ :id/view permettant d’afficher la cardz d’un user à partir de son id
+-	Créer une route /cardz/ :id/edit permettant d’ajouter une vraie page de customisation des éléments vus dans la première partie.
+
+Dernier mot du représentant d’Instagram : « Bon courage à tous et rendez-nous encore plus riche ! » 
