@@ -35,7 +35,8 @@ https://carrd.co/
 Le représentant d’Instagram vous demande donc de lui créer une application permettant d’écraser ces concurrents. Il vous donne juste un peu de HTML et CSS pour commencer votre projet.
 - Clonez le projet : https://github.com/Evyweb/cardz
 
-Votre mission…
+## Votre mission…
+
 Dans un premier temps, il souhaiterait que vous utilisez un viewModel et que vous:
 -	Rendiez dynamique les informations de l’utilisateur comme le nom et la biographie.
 -	Rendiez dynamique l’image de fond et la photo de l’utilisateur
