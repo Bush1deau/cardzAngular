@@ -1,0 +1,14 @@
+<div class="card {{userCard.animation}}">
+  <div class="header">
+    <div class="avatar" [style.background-image]="userCard.avatar"></div>
+    <div class="name">{{userCard.name}}</div>
+    <div class="biography">{{userCard.biography}}</div>
+  </div>
+  <div class="body">
+    <div class="links">
+      <div *ngFor="let currentLink of userCard.links">
+        <app-link [link]="currentLink"></app-link>
+      </div>
+    </div>
+  </div>
+</div>

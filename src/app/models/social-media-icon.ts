@@ -1,4 +1,4 @@
-export enum SocialMedia {
+export enum SocialMediaIcon {
   BEHANCE = 'k',
   INSTAGRAM = 'c',
   TWITTER = 't',
