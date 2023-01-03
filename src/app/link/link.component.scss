@@ -1,0 +1,29 @@
+.link-item {
+
+  a {
+    color: #191919;
+    font-weight: bold;
+    border: 1px solid #c2d5e7;
+    border-radius: 30px;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    text-decoration: none;
+    display: flex;
+    background-color: #eff7ff;
+    transition: background-color 0.5s;
+    align-items: center;
+
+    &:hover {
+      background-color: #154979;
+      border: 1px solid #154979;
+      color: white;
+      transition: background-color .5s;
+    }
+
+    .social-icon {
+      font-family: 'Social', sans-serif;
+      font-size: 2rem;
+      margin-right: 1rem;
+    }
+  }
+}
