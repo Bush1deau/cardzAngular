@@ -1,6 +1,6 @@
 import {SocialMediaIcon} from "./social-media-icon";
 
-export interface Link {
+export interface CardzLink {
   url: string,
   text: string,
   icon: SocialMediaIcon,

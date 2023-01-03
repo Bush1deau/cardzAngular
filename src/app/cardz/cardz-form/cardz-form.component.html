@@ -1,0 +1,32 @@
+<form [formGroup]="form" (ngSubmit)="onSubmit()">
+  <div class="form-group">
+    <label for="name">Nom</label>
+    <input type="text" class="form-control" id="name" formControlName="name">
+    <p class="invalid-field" *ngIf="form.get('name')?.invalid">Le nom est invalide.</p>
+  </div>
+  <div class="form-group">
+    <label for="biography">Biographie</label>
+    <textarea class="form-control" id="biography" formControlName="biography"></textarea>
+    <p class="invalid-field" *ngIf="form.get('biography')?.invalid">La biography est invalide.</p>
+  </div>
+  <div class="form-group">
+    <label for="avatar">Avatar</label>
+    <input type="text" class="form-control" id="avatar">
+  </div>
+  <div class="form-group">
+    <label for="animation">Animation</label>
+    <input type="text" class="form-control" id="animation">
+  </div>
+  <div class="form-group">
+    <label for="background.image">Image de fond</label>
+    <input type="text" class="form-control" id="background.image">
+  </div>
+  <div class="form-group" formGroupName="background">
+    <label for="background.animation">Animation de fond</label>
+    <input type="text" class="form-control" id="background.animation">
+  </div>
+
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+

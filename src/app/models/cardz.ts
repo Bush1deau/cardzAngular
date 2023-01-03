@@ -1,7 +1,7 @@
-import {Link} from "./link";
 import {AnimationClasses} from "./animation-classes";
+import {CardzLink} from "./cardz-link";
 
-export interface Card {
+export interface Cardz {
   name: string,
   biography: string,
   avatar: string,
@@ -10,5 +10,5 @@ export interface Card {
     image: string,
     animation: AnimationClasses,
   }
-  links: Link[]
+  links: CardzLink[]
 }

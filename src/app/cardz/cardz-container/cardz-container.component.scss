@@ -1,0 +1,13 @@
+.container {
+  background-size: cover;
+  background-position: top center;
+  background-attachment: fixed;
+  background-color: white;
+  min-height: 100vh;
+  @media (min-width: 648px) {
+    padding: 1.5rem;
+  }
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
