@@ -1,14 +1,15 @@
 import { Component } from '@angular/core';
-import {Cardz} from "../../models/cardz";
-import {AnimationClasses} from "../../models/animation-classes";
-import {SocialMediaIcon} from "../../models/social-media-icon";
+import {Cardz} from "../../shared/types/cardz";
+import {AnimationClasses} from "../../shared/types/animation-classes";
+import {SocialMediaIcon} from "../../shared/types/social-media-icon";
 
 @Component({
-  selector: 'app-cardz-container',
-  templateUrl: './cardz-container.component.html',
-  styleUrls: ['./cardz-container.component.scss']
+  selector: 'app-cardz-viewer',
+  templateUrl: './cardz-viewer.component.html',
+  styleUrls: ['./cardz-viewer.component.scss']
 })
-export class CardzContainerComponent {
+export class CardzViewerComponent {
+
   userCard: Cardz = {
     name: 'Rudy Evrard',
     biography: 'I am a software developer',

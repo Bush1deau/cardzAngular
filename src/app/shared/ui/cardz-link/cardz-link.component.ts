@@ -1,5 +1,5 @@
 import {Component, Input} from '@angular/core';
-import {CardzLink} from "../../models/cardz-link";
+import {CardzLink} from "../../types/cardz-link";
 
 @Component({
   selector: 'app-cardz-link',

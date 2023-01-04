@@ -1,0 +1,14 @@
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  height: 50px;
+  background-color: #fff;
+  padding: 0 2rem 0 2rem;
+}
+
+.active {
+  background-color: #dfecf6;
+}

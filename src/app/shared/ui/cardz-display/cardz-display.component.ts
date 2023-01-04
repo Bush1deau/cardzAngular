@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { Cardz } from 'src/app/models/cardz';
+import {Cardz} from "../../types/cardz";
 
 @Component({
   selector: 'app-cardz-display',
