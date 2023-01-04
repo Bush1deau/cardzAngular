@@ -1,0 +1,22 @@
+<app-main-menu></app-main-menu>
+
+<ng-container *ngIf="(userCards$ | async) as userCards">
+<br><br><br>
+    <table>
+        <tr>
+            <td>Nom</td>
+            <td>Biography</td>
+            <td>Lien Cardz</td>
+            <td>Supprimer Cardz</td>
+        </tr>
+    <ng-container *ngFor="let uc of userCards">        
+        <tr>
+            <td>{{uc.name}}</td>
+            <td>{{uc.biography}}</td>
+            <td><a [routerLink]="['/cardz/',uc.id,'/view']" routerLinkActive="active">Voir carte de {{uc.name}}</a></td>
+            <td><button (click)="deleteCard(uc.id)">Supprimer</button></td>
+        </tr>
+    </ng-container>
+</table>
+
+</ng-container>

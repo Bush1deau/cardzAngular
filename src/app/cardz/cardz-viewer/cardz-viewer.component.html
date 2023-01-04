@@ -1,7 +1,10 @@
 <app-main-menu></app-main-menu>
 
-<div class="cardz-container {{userCard.background.animation}}" [style.background-image]="userCard.background.image">
+<ng-container *ngIf="(userCard$ | async) as userCard">
 
-  <app-cardz-display [userCard]="userCard"></app-cardz-display>
+  <div class="cardz-container {{userCard.background.animation}}" [style.background-image]="userCard.background.image">
 
-</div>
+    <app-cardz-display [userCard]="userCard"></app-cardz-display>
+
+  </div>
+</ng-container>
