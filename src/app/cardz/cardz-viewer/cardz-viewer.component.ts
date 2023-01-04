@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
 import {Cardz} from "../../shared/types/cardz";
 import {AnimationClasses} from "../../shared/types/animation-classes";
 import {SocialMediaIcon} from "../../shared/types/social-media-icon";
@@ -51,5 +51,6 @@ export class CardzViewerComponent {
         icon: SocialMediaIcon.INSTAGRAM,
       }
     ]
-  }
+  };
+
 }

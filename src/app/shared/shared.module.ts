@@ -6,6 +6,7 @@ import {CardzFormComponent} from "./ui/cardz-form/cardz-form.component";
 import {ReactiveFormsModule} from "@angular/forms";
 import { MainMenuComponent } from './ui/main-menu/main-menu.component';
 import {RouterModule} from "@angular/router";
+import {HttpClientModule} from "@angular/common/http";
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import {RouterModule} from "@angular/router";
     CommonModule,
     ReactiveFormsModule,
     RouterModule,
+    HttpClientModule
   ],
   exports: [
     CardzDisplayComponent,
