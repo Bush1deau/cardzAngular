@@ -35,26 +35,34 @@ https://carrd.co/
 Le représentant d’Instagram vous demande donc de lui créer une application permettant d’écraser ces concurrents. Il vous donne juste un peu de HTML et CSS pour commencer votre projet.
 - Clonez le projet : https://github.com/Evyweb/cardz
 
-## Votre mission…
+## Séance 1
 
 Dans un premier temps, il souhaiterait que vous utilisez un viewModel et que vous:
--	Rendiez dynamique les informations de l’utilisateur comme le nom et la biographie.
--	Rendiez dynamique l’image de fond et la photo de l’utilisateur
--	Rendiez dynamique les liens à afficher ainsi que leurs icônes
--	Rendiez dynamique l’animation de l’image de fond
--	Rendiez dynamique l’animation de la cardz
+-	Rendiez dynamique les informations de l’utilisateur comme le nom et la biographie. ✔️
+-	Rendiez dynamique l’image de fond et la photo de l’utilisateur ✔️
+-	Rendiez dynamique les liens à afficher ainsi que leurs icônes ✔️
+-	Rendiez dynamique l’animation de l’image de fond ✔️
+-	Rendiez dynamique l’animation de la cardz ✔️
 -	Rendiez dynamique le changement de couleur de fond de la partie supérieure (bonus)
 -	Rendiez dynamique le changement de couleur de fond de la partie inférieure (bonus)
 -	Rendiez dynamique les couleurs de texte et du titre (bonus)
 -	Rendiez dynamique les polices utilisées (bonus)
 Dans un second temps, vous devrez :
--	Sans toucher à votre viewModel, vous devrez découper votre application plusieurs composants en leur passant les données en input
+-	Sans toucher à votre viewModel, vous devrez découper votre application plusieurs composants en leur passant les données en input ✔️
 
-Plus tard nous verrons comment :
--	Envoyer les données de votre viewModel à partir d’un service
--	Ajouter un faux serveur http qui enverra les données
--	Appeler le faux serveur http pour récupérer les données grâce au httpClient d’Angular
--	Créer une route /cardz/ :id/view permettant d’afficher la cardz d’un user à partir de son id
--	Créer une route /cardz/ :id/edit permettant d’ajouter une vraie page de customisation des éléments vus dans la première partie.
+Dernier mot du représentant d’Instagram : « Bon courage à tous et rendez-nous encore plus riche ! »
 
-Dernier mot du représentant d’Instagram : « Bon courage à tous et rendez-nous encore plus riche ! » 
+## Séance 2
+
+Nous allons voir comment :
+-	Ajouter un faux serveur http qui enverra les données  **[TODO]**
+-	Utiliser postman ou hoppscotch  **[TODO]**
+-	Appeler le faux serveur http pour récupérer les données grâce au httpClient d’Angular  **[TODO]**
+-	Envoyer les données de votre viewModel à partir d’un service  **[TODO]**
+-	Créer une route /cardz/:id/view permettant d’afficher la cardz d’un user à partir de son id  **[TODO]**
+-	Créer une route /cardz/:id/customize permettant d’ajouter une vraie page de customisation des éléments vus dans la première partie.  **[TODO]**
+-	Créer une route /cardz/create contenant un formulaire permettant de créer une cardz.  **[TODO]**
+-	Créer une route /cardz/all permettant de lister toutes les cardz.  **[TODO]**
+-	Permettre de supprimer les cardz.  **[TODO]**
+-	Permettre de rechercher des cardz.  **[TODO]**
+
